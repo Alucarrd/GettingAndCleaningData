@@ -1,7 +1,7 @@
-Course:Getting & Cleaning Data
-Course Id:getdata-013
+##Course:Getting & Cleaning Data
+##Course Id:getdata-013
 
-Course Project Background:
+##Course Project Background:
 This project is to demonstrate the ability to collect, work with, and clean a data set.  In this project, we are given with data collected by accelerometers from the Samsung Galaxy S smartphone through companies such as FitBit, Nike, and Jawbone Up.  In this project we will need to create an R scrit called run_analysis.R that does the following:
 
 1. Merges the training and the test sets to create one data set.
@@ -10,16 +10,14 @@ This project is to demonstrate the ability to collect, work with, and clean a da
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-File Descriptions:
-
+##File Descriptions:
 1. run_analysis.R - main R script that contains the logic to process and output the result to a flat file.
 2. activitydata.txt - tidy data output file from step5.
 3. CodeBook.md - data dictionary file for activitydata.txt.
 4. ReadMe.md - description file for the project.
 5. data folder - folder contains downloaded data file set for the project.
 
-Logic workflow of the project:
-
+##Logic workflow of the project:
 1. load the necessary libary.
 2. read in data files and store the result into variables. 
 3. Provide meaningful names for the columns on variables that contains the read-in files.
